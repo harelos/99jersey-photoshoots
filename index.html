@@ -50,6 +50,10 @@
   }
   .chip:hover{color:var(--ink); border-color:var(--dim)}
   .chip[aria-selected="true"]{background:var(--ink); color:#14110F; border-color:var(--ink); font-weight:700}
+  .dot{display:inline-block; width:6px; height:6px; border-radius:50%; margin-right:7px; vertical-align:1px}
+  .dot.complete{background:#57B87A} .dot.partial{background:var(--amber)}
+  .dot.product{background:#C46A3A}  .dot.casting{background:var(--dim)}
+  .legend{display:flex; gap:16px; flex-wrap:wrap; padding:0 0 14px; font-family:'Space Mono',monospace; font-size:10px; letter-spacing:.1em; text-transform:uppercase; color:var(--dim)}
 
   /* ---------- tabs ---------- */
   .tabs{display:flex; gap:0; border-bottom:1px solid var(--line)}
@@ -194,6 +198,11 @@
       <div class="stat" id="topstat"></div>
     </div>
     <div class="rail" id="rail" role="tablist"></div>
+    <div class="legend">
+      <span><i class="dot complete"></i>Full 8-shot set</span>
+      <span><i class="dot partial"></i>In progress</span>
+      <span><i class="dot product"></i>Product shots only</span>
+    </div>
     <div class="tabs" role="tablist">
       <button class="tab" id="tab-shoot" role="tab" aria-selected="true">The Photoshoot</button>
       <button class="tab" id="tab-store" role="tab" aria-selected="false">In The Store</button>
@@ -210,7 +219,7 @@
         <div class="sub" id="m-sub"></div>
       </div>
       <dl class="field"><dt>Shoot Concept</dt><dd id="m-concept"></dd></dl>
-      <dl class="field"><dt>Model</dt><dd id="m-model"></dd></dl>
+      <dl class="field"><dt>Casting</dt><dd id="m-model"></dd><dt style="margin-top:12px">Status</dt><dd id="m-state"></dd></dl>
     </div>
   </div>
 
@@ -291,8 +300,11 @@ const $ = id => document.getElementById(id);
 let cur = 0, lbList = [], lbIdx = 0;
 
 /* ---------- shoot rail ---------- */
+const shortName = s => s.dir
+  .replace(/\bKit\b/,'').replace(/\bAdult\b/,'· Adult').replace(/\bBlack\b/,'· Blackout')
+  .replace(/Second Color/,'· Away').replace(/v2/,'· v2').replace(/\s+/g,' ').trim();
 $('rail').innerHTML = S.map((s,i)=>
-  `<button class="chip" role="tab" aria-selected="${i===0}" data-i="${i}">${s.name.split(' ')[0]} ${s.dir.includes('Adult')?'· Adult':'· Kit'}</button>`
+  `<button class="chip" role="tab" aria-selected="${i===0}" data-i="${i}"><i class="dot ${s.state}"></i>${shortName(s)}</button>`
 ).join('');
 $('rail').onclick = e => { const b = e.target.closest('.chip'); if(b) select(+b.dataset.i); };
 
@@ -318,18 +330,22 @@ function select(i){
   $('m-name').innerHTML = s.name.replace(/^(\S+)/, '<em>$1</em>');
   $('m-sub').textContent = s.sub;
   $('m-concept').textContent = s.concept;
-  $('m-model').textContent = s.model;
+  $('m-model').textContent = s.casting;
+  $('m-state').innerHTML = `<i class="dot ${s.state}"></i>${s.note}`;
 
   const nShots = s.batches.reduce((a,b)=>a+b.shots.length,0);
+  const nDone = S.filter(x=>x.state==='complete').length;
   $('topstat').innerHTML = `<b>${S.length}</b> shoots · <b>${S.reduce((a,x)=>a+x.batches.reduce((c,b)=>c+b.shots.length,0),0)}</b> frames delivered<br>
-    <b>${S.reduce((a,x)=>a+x.refs.length,0)}</b> reference grids built`;
+    <b>${nDone}</b> full sets · <b>${S.reduce((a,x)=>a+x.refs.length,0)}</b> reference grids`;
   $('foot').textContent = `${s.dir} — ${nShots} frames, ${s.refs.length} references. Click any frame to open full size.`;
 
   // batches
   $('batches').innerHTML = s.batches.length ? s.batches.map((b,bi)=>`
     <section class="sec">
       <div class="sec-head"><span class="n">${String(bi+1).padStart(2,'0')}</span><h2>${b.name === 'Batch 1' ? 'The Eight Shot Ladder' : b.name}</h2></div>
-      <p class="sec-note">Each slot has one job. Together they walk a buyer from the thumbnail to the checkout: see it, want it, trust it, own it.</p>
+      <p class="sec-note">${s.state === 'product'
+        ? 'Product slots are shot — the flat lay and both anti-scam macros. The five model slots are cast and waiting to be generated.'
+        : 'Each slot has one job. Together they walk a buyer from the thumbnail to the checkout: see it, want it, trust it, own it.'}</p>
       <div class="sheet">
         ${b.shots.map(sh=>`
           <figure class="frame" data-src="${sh.full||sh.src}" data-cap="${sh.role} — ${sh.title}">
