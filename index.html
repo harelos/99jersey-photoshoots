@@ -132,6 +132,16 @@
 
   .empty{border:1px dashed var(--line); padding:56px 24px; text-align:center; color:var(--dim); font-family:'Space Mono',monospace; font-size:12px; letter-spacing:.1em}
 
+  /* superseded versions read as quieter than the main ladder until hovered */
+  .frame.dim{opacity:.6}
+  .frame.dim:hover{opacity:1}
+  .frame .flag.ver{color:var(--muted); border-color:var(--line)}
+  /* past shoots — one archive block, grouped by session */
+  .past-grp{margin-top:38px}
+  .past-grp:first-of-type{margin-top:26px}
+  .past-grp h3{font-family:'Space Mono',monospace; font-size:12px; letter-spacing:.16em; text-transform:uppercase; color:var(--amber); margin-bottom:16px; display:flex; align-items:baseline; gap:10px}
+  .past-grp h3 .c{color:var(--dim); font-size:10px; letter-spacing:.1em}
+
   /* ================= STORE TAB (light — the shelf) ================= */
   .store{background:#fff; color:#1c1c1c; font-size:15px}
   .store .promo{background:#1633D4; color:#fff; text-align:center; font-size:11px; font-weight:700; letter-spacing:.08em; padding:7px; text-transform:uppercase}
@@ -243,6 +253,7 @@
 
   <div class="wrap">
     <div id="batches"></div>
+    <div id="tests"></div>
 
     <section class="sec" style="border-top:1px solid var(--line)">
       <div class="sec-head"><span class="n">02</span><h2>The Reference System</h2></div>
@@ -255,12 +266,15 @@
           <li>Never describe the face or the kit in words. Point at the reference and say <b>1:1, do not change anything.</b></li>
           <li>Call expressions and poses by <b>grid cell number</b>, never by adjective. Adjectives drift the face.</li>
           <li>No invented logos, sponsors, swooshes or federation crests. If it isn't in the product photo, it doesn't exist.</li>
-          <li>Accessories never cover the crest, the name or the number. One to three per shot, from the props board.</li>
-          <li>Every frame carries a vibe item — even the studio ones. <b>Warm light always</b>, never cold, never plastic.</li>
+          <li><b>Never a second garment.</b> We sell the shirt — no jacket, parka, hoodie or sweater ever shares the frame and competes with the product.</li>
+          <li>Props appear in <b>one or two shots per set, never all five</b>. Shot 4 (Fit) and Shot 5 (Back) are <b>always empty-handed</b>, and no prop ever covers the crest, name or number.</li>
+          <li><b>No animals, no eating, no footballs</b> — anywhere in the catalogue. Warm light always, never cold, never plastic.</li>
           <li>Validate on shots 1, 2, 4 and 5 before spending on the rest. If the face holds, the system is locked.</li>
         </ol>
       </div>
     </section>
+
+    <div id="past"></div>
   </div>
 </main>
 
@@ -383,6 +397,28 @@ function select(i){
     </section>`).join('')
   : `<section class="sec"><div class="empty">Grids built · shots not generated yet</div></section>`;
 
+  // tests & alternates — the superseded versions of the same slots, ranked below the main ladder
+  const tests = s.tests || [];
+  $('tests').innerHTML = tests.length ? `
+    <section class="sec" style="border-top:1px solid var(--line)">
+      <div class="sec-head"><span class="n">01·b</span><h2>Tests &amp; Alternates</h2></div>
+      <p class="sec-note">Earlier versions of the slots above. Nothing is deleted — it's ranked. The newest cut wins the ladder; these are kept in case the client still likes a frame from an earlier pass.</p>
+      <div class="sheet">
+        ${tests.map(sh=>{
+          const ver = (sh.title.match(/\bV\d\b/)||['V1'])[0].toUpperCase();
+          return `
+          <figure class="frame dim" data-src="${sh.full||sh.src}" data-cap="${sh.role} — ${sh.title}">
+            ${sh.slot?`<div class="num">${sh.slot}</div>`:''}
+            <div class="flag ver">${ver}</div>
+            <img class="shot" loading="lazy" src="${sh.src}" alt="${sh.title}">
+            <figcaption class="cap">
+              <div class="role">${sh.role}</div>
+              <div class="job">${sh.job || sh.title}</div>
+            </figcaption>
+          </figure>`;}).join('')}
+      </div>
+    </section>` : '';
+
   // refs
   $('refs').innerHTML = s.refs.map(r=>`
     <figure class="ref" data-src="${r.full||r.src}" data-cap="${r.label}">
@@ -470,6 +506,27 @@ document.addEventListener('keydown', e=>{
   if(e.key === 'ArrowLeft') step(-1);
   if(e.key === 'ArrowRight') step(1);
 });
+
+/* ---------- past shoots (global archive, rendered once) ---------- */
+const PAST = window.PAST || [];
+if(PAST.length){
+  const total = PAST.reduce((a,p)=>a+p.shots.length,0);
+  $('past').innerHTML = `
+    <section class="sec" style="border-top:1px solid var(--line)">
+      <div class="sec-head"><span class="n">03</span><h2>Past Shoots</h2></div>
+      <p class="sec-note">The earlier sessions — the work that led here, kept browsable. ${total} frames across ${PAST.length} passes. Superseded by the current sets above, but the client may still want a frame from one of them.</p>
+      ${PAST.map(p=>`
+        <div class="past-grp">
+          <h3>${p.label} <span class="c">${p.shots.length} frames</span></h3>
+          <div class="sheet">
+            ${p.shots.map(sh=>`
+              <figure class="frame dim" data-src="${sh.full||sh.src}" data-cap="${p.label} — ${sh.title}">
+                <img class="shot" loading="lazy" src="${sh.src}" alt="${sh.title}">
+              </figure>`).join('')}
+          </div>
+        </div>`).join('')}
+    </section>`;
+}
 
 select(0);
 </script>
