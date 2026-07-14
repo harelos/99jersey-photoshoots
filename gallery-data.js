@@ -1,5 +1,133 @@
 window.SHOOTS = [
  {
+  "id": "haaland-black",
+  "dir": "Haaland Black",
+  "name": "ERLING HAALAND",
+  "sub": "#9 Norway Blackout Kit",
+  "crumb": "WORLD CUP JERSEYS",
+  "concept": "Blackout edition, hard light",
+  "casting": "Norway Adult",
+  "family": "haaland",
+  "variant": "Blackout",
+  "state": "complete",
+  "note": "All 8 slots delivered",
+  "done": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "batches": [
+   {
+    "name": "Batch 1",
+    "shots": [
+     {
+      "src": "img/haaland-black-batch-1-shot-1-google-shopping-flat-lay-t.webp",
+      "slot": 1,
+      "role": "Google Shopping",
+      "job": "The thumbnail. Legibility over emotion.",
+      "title": "Google Shopping Flat Lay",
+      "alt": false,
+      "full": "img/haaland-black-batch-1-shot-1-google-shopping-flat-lay-f.webp"
+     },
+     {
+      "src": "img/haaland-black-batch-1-shot-2-identity-vibe-v2-t.webp",
+      "slot": 2,
+      "role": "Identity & Vibe",
+      "job": "The hook. He owns the place.",
+      "title": "Identity & Vibe V2",
+      "alt": true,
+      "full": "img/haaland-black-batch-1-shot-2-identity-vibe-v2-f.webp"
+     },
+     {
+      "src": "img/haaland-black-batch-1-shot-3-studio-story-laugh-v2-t.webp",
+      "slot": 3,
+      "role": "Styling Context",
+      "job": "The joy. Where good days happen.",
+      "title": "Studio Story (laugh) V2",
+      "alt": true,
+      "full": "img/haaland-black-batch-1-shot-3-studio-story-laugh-v2-f.webp"
+     },
+     {
+      "src": "img/haaland-black-batch-1-shot-4-fit-clarity-v2-t.webp",
+      "slot": 4,
+      "role": "Fit & Clarity",
+      "job": "The truth. How it really fits.",
+      "title": "Fit & Clarity V2",
+      "alt": true,
+      "full": "img/haaland-black-batch-1-shot-4-fit-clarity-v2-f.webp"
+     },
+     {
+      "src": "img/haaland-black-batch-1-shot-5-statement-back-v2-t.webp",
+      "slot": 5,
+      "role": "Statement Back",
+      "job": "The fantasy. His name on the back.",
+      "title": "Statement Back V2",
+      "alt": true,
+      "full": "img/haaland-black-batch-1-shot-5-statement-back-v2-f.webp"
+     },
+     {
+      "src": "img/haaland-black-batch-1-shot-6-macro-crest-t.webp",
+      "slot": 6,
+      "role": "Anti-Scam Macro",
+      "job": "The proof. Not a knockoff.",
+      "title": "Macro Crest",
+      "alt": false,
+      "full": "img/haaland-black-batch-1-shot-6-macro-crest-f.webp"
+     },
+     {
+      "src": "img/haaland-black-batch-1-shot-7-macro-collar-cuff-t.webp",
+      "slot": 7,
+      "role": "Anti-Scam Macro",
+      "job": "The quality. Real fabric.",
+      "title": "Macro Collar & Cuff",
+      "alt": false,
+      "full": "img/haaland-black-batch-1-shot-7-macro-collar-cuff-f.webp"
+     },
+     {
+      "src": "img/haaland-black-batch-1-shot-8-the-closer-no-face-v2-t.webp",
+      "slot": 8,
+      "role": "The Closer",
+      "job": "The swag. No face, so it's yours.",
+      "title": "The Closer (no face) V2",
+      "alt": true,
+      "full": "img/haaland-black-batch-1-shot-8-the-closer-no-face-v2-f.webp"
+     }
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "src": "img/models-norway-adult-modelanglesgrid-t.webp",
+    "label": "Angles Grid",
+    "note": "16 camera moves. The brand's eye.",
+    "full": "img/models-norway-adult-modelanglesgrid-f.webp"
+   },
+   {
+    "src": "img/models-norway-adult-modelbodygrid-t.webp",
+    "label": "Body Grid",
+    "note": "16 stances. Locks how he stands.",
+    "full": "img/models-norway-adult-modelbodygrid-f.webp"
+   },
+   {
+    "src": "img/models-norway-adult-modelfacegrid-t.webp",
+    "label": "Face Grid",
+    "note": "16 expressions. Locks who he is.",
+    "full": "img/models-norway-adult-modelfacegrid-f.webp"
+   },
+   {
+    "src": "img/models-norway-adult-moodboard-t.webp",
+    "label": "Mood Board",
+    "note": "The world. Palette, light, props.",
+    "full": "img/models-norway-adult-moodboard-f.webp"
+   }
+  ]
+ },
+ {
   "id": "haaland-kit",
   "dir": "Haaland Kit",
   "name": "ERLING HAALAND",
@@ -1297,17 +1425,17 @@ window.SHOOTS = [
   ]
  },
  {
-  "id": "haaland-black",
-  "dir": "Haaland Black",
-  "name": "ERLING HAALAND",
-  "sub": "#9 Norway Blackout Kit",
+  "id": "ronaldo-kit-v2",
+  "dir": "Ronaldo Kit v2",
+  "name": "CRISTIANO RONALDO",
+  "sub": "#7 Portugal Youth Kit — v2",
   "crumb": "WORLD CUP JERSEYS",
-  "concept": "Blackout edition, hard light",
-  "casting": "Norway Adult",
-  "family": "haaland",
-  "variant": "Blackout",
-  "state": "partial",
-  "note": "7 of 8 slots delivered",
+  "concept": "Portuguese old town, last light",
+  "casting": "Portugal Kid",
+  "family": "ronaldo",
+  "variant": "Design 2",
+  "state": "complete",
+  "note": "All 8 slots delivered",
   "done": [
    1,
    2,
@@ -1315,74 +1443,202 @@ window.SHOOTS = [
    4,
    5,
    6,
-   7
+   7,
+   8
   ],
   "batches": [
    {
     "name": "Batch 1",
     "shots": [
      {
-      "src": "img/haaland-black-batch-1-shot-1-google-shopping-flat-lay-t.webp",
+      "src": "img/ronaldo-kit-v2-batch-1-shot-1-google-shopping-flat-lay-t.webp",
       "slot": 1,
       "role": "Google Shopping",
       "job": "The thumbnail. Legibility over emotion.",
       "title": "Google Shopping Flat Lay",
       "alt": false,
-      "full": "img/haaland-black-batch-1-shot-1-google-shopping-flat-lay-f.webp"
+      "full": "img/ronaldo-kit-v2-batch-1-shot-1-google-shopping-flat-lay-f.webp"
      },
      {
-      "src": "img/haaland-black-batch-1-shot-2-identity-vibe-v2-t.webp",
+      "src": "img/ronaldo-kit-v2-batch-1-shot-2-identity-vibe-t.webp",
       "slot": 2,
       "role": "Identity & Vibe",
       "job": "The hook. He owns the place.",
-      "title": "Identity & Vibe V2",
-      "alt": true,
-      "full": "img/haaland-black-batch-1-shot-2-identity-vibe-v2-f.webp"
+      "title": "Identity & Vibe",
+      "alt": false,
+      "full": "img/ronaldo-kit-v2-batch-1-shot-2-identity-vibe-f.webp"
      },
      {
-      "src": "img/haaland-black-batch-1-shot-3-studio-story-laugh-v2-t.webp",
+      "src": "img/ronaldo-kit-v2-batch-1-shot-3-studio-story-laugh-t.webp",
       "slot": 3,
       "role": "Styling Context",
       "job": "The joy. Where good days happen.",
-      "title": "Studio Story (laugh) V2",
-      "alt": true,
-      "full": "img/haaland-black-batch-1-shot-3-studio-story-laugh-v2-f.webp"
+      "title": "Studio Story (laugh)",
+      "alt": false,
+      "full": "img/ronaldo-kit-v2-batch-1-shot-3-studio-story-laugh-f.webp"
      },
      {
-      "src": "img/haaland-black-batch-1-shot-4-fit-clarity-v2-t.webp",
+      "src": "img/ronaldo-kit-v2-batch-1-shot-4-fit-clarity-t.webp",
       "slot": 4,
       "role": "Fit & Clarity",
       "job": "The truth. How it really fits.",
-      "title": "Fit & Clarity V2",
-      "alt": true,
-      "full": "img/haaland-black-batch-1-shot-4-fit-clarity-v2-f.webp"
+      "title": "Fit & Clarity",
+      "alt": false,
+      "full": "img/ronaldo-kit-v2-batch-1-shot-4-fit-clarity-f.webp"
      },
      {
-      "src": "img/haaland-black-batch-1-shot-5-statement-back-v2-t.webp",
+      "src": "img/ronaldo-kit-v2-batch-1-shot-5-statement-back-t.webp",
       "slot": 5,
       "role": "Statement Back",
       "job": "The fantasy. His name on the back.",
-      "title": "Statement Back V2",
-      "alt": true,
-      "full": "img/haaland-black-batch-1-shot-5-statement-back-v2-f.webp"
+      "title": "Statement Back",
+      "alt": false,
+      "full": "img/ronaldo-kit-v2-batch-1-shot-5-statement-back-f.webp"
      },
      {
-      "src": "img/haaland-black-batch-1-shot-6-macro-crest-t.webp",
+      "src": "img/ronaldo-kit-v2-batch-1-shot-6-macro-crest-t.webp",
       "slot": 6,
       "role": "Anti-Scam Macro",
       "job": "The proof. Not a knockoff.",
       "title": "Macro Crest",
       "alt": false,
-      "full": "img/haaland-black-batch-1-shot-6-macro-crest-f.webp"
+      "full": "img/ronaldo-kit-v2-batch-1-shot-6-macro-crest-f.webp"
      },
      {
-      "src": "img/haaland-black-batch-1-shot-7-macro-collar-cuff-t.webp",
+      "src": "img/ronaldo-kit-v2-batch-1-shot-7-macro-collar-cuff-t.webp",
       "slot": 7,
       "role": "Anti-Scam Macro",
       "job": "The quality. Real fabric.",
       "title": "Macro Collar & Cuff",
       "alt": false,
-      "full": "img/haaland-black-batch-1-shot-7-macro-collar-cuff-f.webp"
+      "full": "img/ronaldo-kit-v2-batch-1-shot-7-macro-collar-cuff-f.webp"
+     },
+     {
+      "src": "img/ronaldo-kit-v2-batch-1-shot-8-the-closer-no-face-t.webp",
+      "slot": 8,
+      "role": "The Closer",
+      "job": "The swag. No face, so it's yours.",
+      "title": "The Closer (no face)",
+      "alt": false,
+      "full": "img/ronaldo-kit-v2-batch-1-shot-8-the-closer-no-face-f.webp"
+     }
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "src": "img/models-portugal-kid-modelanglesgrid-t.webp",
+    "label": "Angles Grid",
+    "note": "16 camera moves. The brand's eye.",
+    "full": "img/models-portugal-kid-modelanglesgrid-f.webp"
+   },
+   {
+    "src": "img/models-portugal-kid-modelbodygrid-t.webp",
+    "label": "Body Grid",
+    "note": "16 stances. Locks how he stands.",
+    "full": "img/models-portugal-kid-modelbodygrid-f.webp"
+   },
+   {
+    "src": "img/models-portugal-kid-modelfacegrid-t.webp",
+    "label": "Face Grid",
+    "note": "16 expressions. Locks who he is.",
+    "full": "img/models-portugal-kid-modelfacegrid-f.webp"
+   },
+   {
+    "src": "img/models-portugal-kid-moodboard-t.webp",
+    "label": "Mood Board",
+    "note": "The world. Palette, light, props.",
+    "full": "img/models-portugal-kid-moodboard-f.webp"
+   }
+  ]
+ },
+ {
+  "id": "haaland-adult",
+  "dir": "Haaland Adult",
+  "name": "ERLING HAALAND",
+  "sub": "#9 Norway Soccer Kit",
+  "crumb": "WORLD CUP JERSEYS",
+  "concept": "Nordic fjord village, golden hour",
+  "casting": "Norway Adult",
+  "family": "haaland",
+  "variant": "Home · Adult",
+  "state": "partial",
+  "note": "7 of 8 slots delivered",
+  "done": [
+   1,
+   2,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "batches": [
+   {
+    "name": "Batch 1",
+    "shots": [
+     {
+      "src": "img/haaland-adult-batch-1-shot-1-google-shopping-flat-lay-t.webp",
+      "slot": 1,
+      "role": "Google Shopping",
+      "job": "The thumbnail. Legibility over emotion.",
+      "title": "Google Shopping Flat Lay",
+      "alt": false,
+      "full": "img/haaland-adult-batch-1-shot-1-google-shopping-flat-lay-f.webp"
+     },
+     {
+      "src": "img/haaland-adult-batch-1-shot-2-identity-vibe-t.webp",
+      "slot": 2,
+      "role": "Identity & Vibe",
+      "job": "The hook. He owns the place.",
+      "title": "Identity & Vibe",
+      "alt": false,
+      "full": "img/haaland-adult-batch-1-shot-2-identity-vibe-f.webp"
+     },
+     {
+      "src": "img/haaland-adult-batch-1-shot-4-fit-clarity-t.webp",
+      "slot": 4,
+      "role": "Fit & Clarity",
+      "job": "The truth. How it really fits.",
+      "title": "Fit & Clarity",
+      "alt": false,
+      "full": "img/haaland-adult-batch-1-shot-4-fit-clarity-f.webp"
+     },
+     {
+      "src": "img/haaland-adult-batch-1-shot-5-statement-back-t.webp",
+      "slot": 5,
+      "role": "Statement Back",
+      "job": "The fantasy. His name on the back.",
+      "title": "Statement Back",
+      "alt": false,
+      "full": "img/haaland-adult-batch-1-shot-5-statement-back-f.webp"
+     },
+     {
+      "src": "img/haaland-adult-batch-1-shot-6-macro-crest-t.webp",
+      "slot": 6,
+      "role": "Anti-Scam Macro",
+      "job": "The proof. Not a knockoff.",
+      "title": "Macro Crest",
+      "alt": false,
+      "full": "img/haaland-adult-batch-1-shot-6-macro-crest-f.webp"
+     },
+     {
+      "src": "img/haaland-adult-batch-1-shot-7-macro-collar-cuff-t.webp",
+      "slot": 7,
+      "role": "Anti-Scam Macro",
+      "job": "The quality. Real fabric.",
+      "title": "Macro Collar & Cuff",
+      "alt": false,
+      "full": "img/haaland-adult-batch-1-shot-7-macro-collar-cuff-f.webp"
+     },
+     {
+      "src": "img/haaland-adult-batch-1-shot-8-the-closer-no-face-t.webp",
+      "slot": 8,
+      "role": "The Closer",
+      "job": "The swag. No face, so it's yours.",
+      "title": "The Closer (no face)",
+      "alt": false,
+      "full": "img/haaland-adult-batch-1-shot-8-the-closer-no-face-f.webp"
      }
     ]
    }
@@ -1411,6 +1667,212 @@ window.SHOOTS = [
     "label": "Mood Board",
     "note": "The world. Palette, light, props.",
     "full": "img/models-norway-adult-moodboard-f.webp"
+   }
+  ]
+ },
+ {
+  "id": "kane",
+  "dir": "Kane",
+  "name": "HARRY KANE",
+  "sub": "#9 England Youth Kit",
+  "crumb": "WORLD CUP JERSEYS",
+  "concept": "English terraced street, overcast",
+  "casting": "England Adult",
+  "family": "kane",
+  "variant": "Home · Youth",
+  "state": "partial",
+  "note": "6 of 8 slots delivered",
+  "done": [
+   1,
+   2,
+   3,
+   4,
+   6,
+   7
+  ],
+  "batches": [
+   {
+    "name": "Batch 1",
+    "shots": [
+     {
+      "src": "img/kane-batch-1-shot-1-google-shopping-flat-lay-t.webp",
+      "slot": 1,
+      "role": "Google Shopping",
+      "job": "The thumbnail. Legibility over emotion.",
+      "title": "Google Shopping Flat Lay",
+      "alt": false,
+      "full": "img/kane-batch-1-shot-1-google-shopping-flat-lay-f.webp"
+     },
+     {
+      "src": "img/kane-batch-1-shot-2-identity-vibe-t.webp",
+      "slot": 2,
+      "role": "Identity & Vibe",
+      "job": "The hook. He owns the place.",
+      "title": "Identity & Vibe",
+      "alt": false,
+      "full": "img/kane-batch-1-shot-2-identity-vibe-f.webp"
+     },
+     {
+      "src": "img/kane-batch-1-shot-3-studio-story-laugh-t.webp",
+      "slot": 3,
+      "role": "Styling Context",
+      "job": "The joy. Where good days happen.",
+      "title": "Studio Story (laugh)",
+      "alt": false,
+      "full": "img/kane-batch-1-shot-3-studio-story-laugh-f.webp"
+     },
+     {
+      "src": "img/kane-batch-1-shot-4-fit-clarity-t.webp",
+      "slot": 4,
+      "role": "Fit & Clarity",
+      "job": "The truth. How it really fits.",
+      "title": "Fit & Clarity",
+      "alt": false,
+      "full": "img/kane-batch-1-shot-4-fit-clarity-f.webp"
+     },
+     {
+      "src": "img/kane-batch-1-shot-6-macro-crest-t.webp",
+      "slot": 6,
+      "role": "Anti-Scam Macro",
+      "job": "The proof. Not a knockoff.",
+      "title": "Macro Crest",
+      "alt": false,
+      "full": "img/kane-batch-1-shot-6-macro-crest-f.webp"
+     },
+     {
+      "src": "img/kane-batch-1-shot-7-macro-collar-cuff-t.webp",
+      "slot": 7,
+      "role": "Anti-Scam Macro",
+      "job": "The quality. Real fabric.",
+      "title": "Macro Collar & Cuff",
+      "alt": false,
+      "full": "img/kane-batch-1-shot-7-macro-collar-cuff-f.webp"
+     }
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "src": "img/models-england-adult-modelanglesgrid-t.webp",
+    "label": "Angles Grid",
+    "note": "16 camera moves. The brand's eye.",
+    "full": "img/models-england-adult-modelanglesgrid-f.webp"
+   },
+   {
+    "src": "img/models-england-adult-modelbodygrid-t.webp",
+    "label": "Body Grid",
+    "note": "16 stances. Locks how he stands.",
+    "full": "img/models-england-adult-modelbodygrid-f.webp"
+   },
+   {
+    "src": "img/models-england-adult-modelfacegrid-t.webp",
+    "label": "Face Grid",
+    "note": "16 expressions. Locks who he is.",
+    "full": "img/models-england-adult-modelfacegrid-f.webp"
+   },
+   {
+    "src": "img/models-england-adult-moodboard-t.webp",
+    "label": "Mood Board",
+    "note": "The world. Palette, light, props.",
+    "full": "img/models-england-adult-moodboard-f.webp"
+   }
+  ]
+ },
+ {
+  "id": "lamine-yamal",
+  "dir": "Lamine Yamal",
+  "name": "LAMINE YAMAL",
+  "sub": "#19 FC Barcelona Youth Kit",
+  "crumb": "JERSEYS",
+  "concept": "Barcelona backstreets, warm dusk",
+  "casting": "Barcelona Kid",
+  "family": "yamal",
+  "variant": "Home · Youth",
+  "state": "partial",
+  "note": "5 of 8 slots delivered",
+  "done": [
+   1,
+   3,
+   4,
+   6,
+   7
+  ],
+  "batches": [
+   {
+    "name": "Batch 1",
+    "shots": [
+     {
+      "src": "img/lamine-yamal-batch-1-shot-1-google-shopping-flat-lay-t.webp",
+      "slot": 1,
+      "role": "Google Shopping",
+      "job": "The thumbnail. Legibility over emotion.",
+      "title": "Google Shopping Flat Lay",
+      "alt": false,
+      "full": "img/lamine-yamal-batch-1-shot-1-google-shopping-flat-lay-f.webp"
+     },
+     {
+      "src": "img/lamine-yamal-batch-1-shot-3-studio-story-laugh-t.webp",
+      "slot": 3,
+      "role": "Styling Context",
+      "job": "The joy. Where good days happen.",
+      "title": "Studio Story (laugh)",
+      "alt": false,
+      "full": "img/lamine-yamal-batch-1-shot-3-studio-story-laugh-f.webp"
+     },
+     {
+      "src": "img/lamine-yamal-batch-1-shot-4-fit-clarity-t.webp",
+      "slot": 4,
+      "role": "Fit & Clarity",
+      "job": "The truth. How it really fits.",
+      "title": "Fit & Clarity",
+      "alt": false,
+      "full": "img/lamine-yamal-batch-1-shot-4-fit-clarity-f.webp"
+     },
+     {
+      "src": "img/lamine-yamal-batch-1-shot-6-macro-crest-t.webp",
+      "slot": 6,
+      "role": "Anti-Scam Macro",
+      "job": "The proof. Not a knockoff.",
+      "title": "Macro Crest",
+      "alt": false,
+      "full": "img/lamine-yamal-batch-1-shot-6-macro-crest-f.webp"
+     },
+     {
+      "src": "img/lamine-yamal-batch-1-shot-7-macro-collar-cuff-t.webp",
+      "slot": 7,
+      "role": "Anti-Scam Macro",
+      "job": "The quality. Real fabric.",
+      "title": "Macro Collar & Cuff",
+      "alt": false,
+      "full": "img/lamine-yamal-batch-1-shot-7-macro-collar-cuff-f.webp"
+     }
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "src": "img/models-barcelona-kid-modelanglesgrid-t.webp",
+    "label": "Angles Grid",
+    "note": "16 camera moves. The brand's eye.",
+    "full": "img/models-barcelona-kid-modelanglesgrid-f.webp"
+   },
+   {
+    "src": "img/models-barcelona-kid-modelbodygrid-t.webp",
+    "label": "Body Grid",
+    "note": "16 stances. Locks how he stands.",
+    "full": "img/models-barcelona-kid-modelbodygrid-f.webp"
+   },
+   {
+    "src": "img/models-barcelona-kid-modelfacegrid-t.webp",
+    "label": "Face Grid",
+    "note": "16 expressions. Locks who he is.",
+    "full": "img/models-barcelona-kid-modelfacegrid-f.webp"
+   },
+   {
+    "src": "img/models-barcelona-kid-moodboard-t.webp",
+    "label": "Mood Board",
+    "note": "The world. Palette, light, props.",
+    "full": "img/models-barcelona-kid-moodboard-f.webp"
    }
   ]
  },
@@ -1535,358 +1997,6 @@ window.SHOOTS = [
     "label": "Mood Board",
     "note": "The world. Palette, light, props.",
     "full": "img/models-argentina-kid-moodboard-f.webp"
-   }
-  ]
- },
- {
-  "id": "ronaldo-kit-v2",
-  "dir": "Ronaldo Kit v2",
-  "name": "CRISTIANO RONALDO",
-  "sub": "#7 Portugal Youth Kit — v2",
-  "crumb": "WORLD CUP JERSEYS",
-  "concept": "Portuguese old town, last light",
-  "casting": "Portugal Kid",
-  "family": "ronaldo",
-  "variant": "Design 2",
-  "state": "partial",
-  "note": "7 of 8 slots delivered",
-  "done": [
-   1,
-   2,
-   3,
-   4,
-   5,
-   6,
-   7
-  ],
-  "batches": [
-   {
-    "name": "Batch 1",
-    "shots": [
-     {
-      "src": "img/ronaldo-kit-v2-batch-1-shot-1-google-shopping-flat-lay-t.webp",
-      "slot": 1,
-      "role": "Google Shopping",
-      "job": "The thumbnail. Legibility over emotion.",
-      "title": "Google Shopping Flat Lay",
-      "alt": false,
-      "full": "img/ronaldo-kit-v2-batch-1-shot-1-google-shopping-flat-lay-f.webp"
-     },
-     {
-      "src": "img/ronaldo-kit-v2-batch-1-shot-2-identity-vibe-t.webp",
-      "slot": 2,
-      "role": "Identity & Vibe",
-      "job": "The hook. He owns the place.",
-      "title": "Identity & Vibe",
-      "alt": false,
-      "full": "img/ronaldo-kit-v2-batch-1-shot-2-identity-vibe-f.webp"
-     },
-     {
-      "src": "img/ronaldo-kit-v2-batch-1-shot-3-studio-story-laugh-t.webp",
-      "slot": 3,
-      "role": "Styling Context",
-      "job": "The joy. Where good days happen.",
-      "title": "Studio Story (laugh)",
-      "alt": false,
-      "full": "img/ronaldo-kit-v2-batch-1-shot-3-studio-story-laugh-f.webp"
-     },
-     {
-      "src": "img/ronaldo-kit-v2-batch-1-shot-4-fit-clarity-t.webp",
-      "slot": 4,
-      "role": "Fit & Clarity",
-      "job": "The truth. How it really fits.",
-      "title": "Fit & Clarity",
-      "alt": false,
-      "full": "img/ronaldo-kit-v2-batch-1-shot-4-fit-clarity-f.webp"
-     },
-     {
-      "src": "img/ronaldo-kit-v2-batch-1-shot-5-statement-back-t.webp",
-      "slot": 5,
-      "role": "Statement Back",
-      "job": "The fantasy. His name on the back.",
-      "title": "Statement Back",
-      "alt": false,
-      "full": "img/ronaldo-kit-v2-batch-1-shot-5-statement-back-f.webp"
-     },
-     {
-      "src": "img/ronaldo-kit-v2-batch-1-shot-6-macro-crest-t.webp",
-      "slot": 6,
-      "role": "Anti-Scam Macro",
-      "job": "The proof. Not a knockoff.",
-      "title": "Macro Crest",
-      "alt": false,
-      "full": "img/ronaldo-kit-v2-batch-1-shot-6-macro-crest-f.webp"
-     },
-     {
-      "src": "img/ronaldo-kit-v2-batch-1-shot-7-macro-collar-cuff-t.webp",
-      "slot": 7,
-      "role": "Anti-Scam Macro",
-      "job": "The quality. Real fabric.",
-      "title": "Macro Collar & Cuff",
-      "alt": false,
-      "full": "img/ronaldo-kit-v2-batch-1-shot-7-macro-collar-cuff-f.webp"
-     }
-    ]
-   }
-  ],
-  "refs": [
-   {
-    "src": "img/models-portugal-kid-modelanglesgrid-t.webp",
-    "label": "Angles Grid",
-    "note": "16 camera moves. The brand's eye.",
-    "full": "img/models-portugal-kid-modelanglesgrid-f.webp"
-   },
-   {
-    "src": "img/models-portugal-kid-modelbodygrid-t.webp",
-    "label": "Body Grid",
-    "note": "16 stances. Locks how he stands.",
-    "full": "img/models-portugal-kid-modelbodygrid-f.webp"
-   },
-   {
-    "src": "img/models-portugal-kid-modelfacegrid-t.webp",
-    "label": "Face Grid",
-    "note": "16 expressions. Locks who he is.",
-    "full": "img/models-portugal-kid-modelfacegrid-f.webp"
-   },
-   {
-    "src": "img/models-portugal-kid-moodboard-t.webp",
-    "label": "Mood Board",
-    "note": "The world. Palette, light, props.",
-    "full": "img/models-portugal-kid-moodboard-f.webp"
-   }
-  ]
- },
- {
-  "id": "haaland-adult",
-  "dir": "Haaland Adult",
-  "name": "ERLING HAALAND",
-  "sub": "#9 Norway Soccer Kit",
-  "crumb": "WORLD CUP JERSEYS",
-  "concept": "Nordic fjord village, golden hour",
-  "casting": "Norway Adult",
-  "family": "haaland",
-  "variant": "Home · Adult",
-  "state": "product",
-  "note": "Product shots done — model shots pending",
-  "done": [
-   1,
-   6,
-   7
-  ],
-  "batches": [
-   {
-    "name": "Batch 1",
-    "shots": [
-     {
-      "src": "img/haaland-adult-batch-1-shot-1-google-shopping-flat-lay-t.webp",
-      "slot": 1,
-      "role": "Google Shopping",
-      "job": "The thumbnail. Legibility over emotion.",
-      "title": "Google Shopping Flat Lay",
-      "alt": false,
-      "full": "img/haaland-adult-batch-1-shot-1-google-shopping-flat-lay-f.webp"
-     },
-     {
-      "src": "img/haaland-adult-batch-1-shot-6-macro-crest-t.webp",
-      "slot": 6,
-      "role": "Anti-Scam Macro",
-      "job": "The proof. Not a knockoff.",
-      "title": "Macro Crest",
-      "alt": false,
-      "full": "img/haaland-adult-batch-1-shot-6-macro-crest-f.webp"
-     },
-     {
-      "src": "img/haaland-adult-batch-1-shot-7-macro-collar-cuff-t.webp",
-      "slot": 7,
-      "role": "Anti-Scam Macro",
-      "job": "The quality. Real fabric.",
-      "title": "Macro Collar & Cuff",
-      "alt": false,
-      "full": "img/haaland-adult-batch-1-shot-7-macro-collar-cuff-f.webp"
-     }
-    ]
-   }
-  ],
-  "refs": [
-   {
-    "src": "img/models-norway-adult-modelanglesgrid-t.webp",
-    "label": "Angles Grid",
-    "note": "16 camera moves. The brand's eye.",
-    "full": "img/models-norway-adult-modelanglesgrid-f.webp"
-   },
-   {
-    "src": "img/models-norway-adult-modelbodygrid-t.webp",
-    "label": "Body Grid",
-    "note": "16 stances. Locks how he stands.",
-    "full": "img/models-norway-adult-modelbodygrid-f.webp"
-   },
-   {
-    "src": "img/models-norway-adult-modelfacegrid-t.webp",
-    "label": "Face Grid",
-    "note": "16 expressions. Locks who he is.",
-    "full": "img/models-norway-adult-modelfacegrid-f.webp"
-   },
-   {
-    "src": "img/models-norway-adult-moodboard-t.webp",
-    "label": "Mood Board",
-    "note": "The world. Palette, light, props.",
-    "full": "img/models-norway-adult-moodboard-f.webp"
-   }
-  ]
- },
- {
-  "id": "kane",
-  "dir": "Kane",
-  "name": "HARRY KANE",
-  "sub": "#9 England Youth Kit",
-  "crumb": "WORLD CUP JERSEYS",
-  "concept": "English terraced street, overcast",
-  "casting": "England Adult",
-  "family": "kane",
-  "variant": "Home · Youth",
-  "state": "product",
-  "note": "Product shots done — model shots pending",
-  "done": [
-   1,
-   6,
-   7
-  ],
-  "batches": [
-   {
-    "name": "Batch 1",
-    "shots": [
-     {
-      "src": "img/kane-batch-1-shot-1-google-shopping-flat-lay-t.webp",
-      "slot": 1,
-      "role": "Google Shopping",
-      "job": "The thumbnail. Legibility over emotion.",
-      "title": "Google Shopping Flat Lay",
-      "alt": false,
-      "full": "img/kane-batch-1-shot-1-google-shopping-flat-lay-f.webp"
-     },
-     {
-      "src": "img/kane-batch-1-shot-6-macro-crest-t.webp",
-      "slot": 6,
-      "role": "Anti-Scam Macro",
-      "job": "The proof. Not a knockoff.",
-      "title": "Macro Crest",
-      "alt": false,
-      "full": "img/kane-batch-1-shot-6-macro-crest-f.webp"
-     },
-     {
-      "src": "img/kane-batch-1-shot-7-macro-collar-cuff-t.webp",
-      "slot": 7,
-      "role": "Anti-Scam Macro",
-      "job": "The quality. Real fabric.",
-      "title": "Macro Collar & Cuff",
-      "alt": false,
-      "full": "img/kane-batch-1-shot-7-macro-collar-cuff-f.webp"
-     }
-    ]
-   }
-  ],
-  "refs": [
-   {
-    "src": "img/models-england-adult-modelanglesgrid-t.webp",
-    "label": "Angles Grid",
-    "note": "16 camera moves. The brand's eye.",
-    "full": "img/models-england-adult-modelanglesgrid-f.webp"
-   },
-   {
-    "src": "img/models-england-adult-modelbodygrid-t.webp",
-    "label": "Body Grid",
-    "note": "16 stances. Locks how he stands.",
-    "full": "img/models-england-adult-modelbodygrid-f.webp"
-   },
-   {
-    "src": "img/models-england-adult-modelfacegrid-t.webp",
-    "label": "Face Grid",
-    "note": "16 expressions. Locks who he is.",
-    "full": "img/models-england-adult-modelfacegrid-f.webp"
-   },
-   {
-    "src": "img/models-england-adult-moodboard-t.webp",
-    "label": "Mood Board",
-    "note": "The world. Palette, light, props.",
-    "full": "img/models-england-adult-moodboard-f.webp"
-   }
-  ]
- },
- {
-  "id": "lamine-yamal",
-  "dir": "Lamine Yamal",
-  "name": "LAMINE YAMAL",
-  "sub": "#19 FC Barcelona Youth Kit",
-  "crumb": "JERSEYS",
-  "concept": "Barcelona backstreets, warm dusk",
-  "casting": "Barcelona Kid",
-  "family": "yamal",
-  "variant": "Home · Youth",
-  "state": "product",
-  "note": "Product shots done — model shots pending",
-  "done": [
-   1,
-   6,
-   7
-  ],
-  "batches": [
-   {
-    "name": "Batch 1",
-    "shots": [
-     {
-      "src": "img/lamine-yamal-batch-1-shot-1-google-shopping-flat-lay-t.webp",
-      "slot": 1,
-      "role": "Google Shopping",
-      "job": "The thumbnail. Legibility over emotion.",
-      "title": "Google Shopping Flat Lay",
-      "alt": false,
-      "full": "img/lamine-yamal-batch-1-shot-1-google-shopping-flat-lay-f.webp"
-     },
-     {
-      "src": "img/lamine-yamal-batch-1-shot-6-macro-crest-t.webp",
-      "slot": 6,
-      "role": "Anti-Scam Macro",
-      "job": "The proof. Not a knockoff.",
-      "title": "Macro Crest",
-      "alt": false,
-      "full": "img/lamine-yamal-batch-1-shot-6-macro-crest-f.webp"
-     },
-     {
-      "src": "img/lamine-yamal-batch-1-shot-7-macro-collar-cuff-t.webp",
-      "slot": 7,
-      "role": "Anti-Scam Macro",
-      "job": "The quality. Real fabric.",
-      "title": "Macro Collar & Cuff",
-      "alt": false,
-      "full": "img/lamine-yamal-batch-1-shot-7-macro-collar-cuff-f.webp"
-     }
-    ]
-   }
-  ],
-  "refs": [
-   {
-    "src": "img/models-barcelona-kid-modelanglesgrid-t.webp",
-    "label": "Angles Grid",
-    "note": "16 camera moves. The brand's eye.",
-    "full": "img/models-barcelona-kid-modelanglesgrid-f.webp"
-   },
-   {
-    "src": "img/models-barcelona-kid-modelbodygrid-t.webp",
-    "label": "Body Grid",
-    "note": "16 stances. Locks how he stands.",
-    "full": "img/models-barcelona-kid-modelbodygrid-f.webp"
-   },
-   {
-    "src": "img/models-barcelona-kid-modelfacegrid-t.webp",
-    "label": "Face Grid",
-    "note": "16 expressions. Locks who he is.",
-    "full": "img/models-barcelona-kid-modelfacegrid-f.webp"
-   },
-   {
-    "src": "img/models-barcelona-kid-moodboard-t.webp",
-    "label": "Mood Board",
-    "note": "The world. Palette, light, props.",
-    "full": "img/models-barcelona-kid-moodboard-f.webp"
    }
   ]
  }
