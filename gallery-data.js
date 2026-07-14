@@ -35,8 +35,8 @@ window.SHOOTS = [
       "alt": false
      },
      {
-      "src": "img/haaland-kit-shot-2-identity-vibe-t.webp",
-      "full": "img/haaland-kit-shot-2-identity-vibe-f.webp",
+      "src": "img/haaland-kit-fix-shot-2-identity-vibe-t.webp",
+      "full": "img/haaland-kit-fix-shot-2-identity-vibe-f.webp",
       "slot": 2,
       "role": "Identity & Vibe",
       "job": "The hook. He owns the place.",
@@ -100,7 +100,17 @@ window.SHOOTS = [
     ]
    }
   ],
-  "tests": [],
+  "tests": [
+   {
+    "src": "img/haaland-kit-shot-2-identity-vibe-t.webp",
+    "full": "img/haaland-kit-shot-2-identity-vibe-f.webp",
+    "slot": 2,
+    "role": "Identity & Vibe",
+    "job": "The hook. He owns the place.",
+    "title": "Identity & Vibe",
+    "alt": true
+   }
+  ],
   "refs": [
    {
     "src": "img/ref-models-norway-kid-modelfacegrid-t.webp",
@@ -302,21 +312,21 @@ window.SHOOTS = [
       "alt": false
      },
      {
-      "src": "img/haaland-black-shot-3-studio-story-laugh-v2-t.webp",
-      "full": "img/haaland-black-shot-3-studio-story-laugh-v2-f.webp",
+      "src": "img/haaland-black-fix-shot-3-studio-story-laugh-t.webp",
+      "full": "img/haaland-black-fix-shot-3-studio-story-laugh-f.webp",
       "slot": 3,
       "role": "Studio Story",
       "job": "The joy. Where good days happen.",
-      "title": "Studio Story (laugh) V2",
+      "title": "Studio Story (laugh)",
       "alt": false
      },
      {
-      "src": "img/haaland-black-shot-4-fit-clarity-v2-t.webp",
-      "full": "img/haaland-black-shot-4-fit-clarity-v2-f.webp",
+      "src": "img/haaland-black-fix-shot-4-fit-clarity-t.webp",
+      "full": "img/haaland-black-fix-shot-4-fit-clarity-f.webp",
       "slot": 4,
       "role": "Fit & Clarity",
       "job": "The truth. How it really sits.",
-      "title": "Fit & Clarity V2",
+      "title": "Fit & Clarity",
       "alt": false
      },
      {
@@ -347,18 +357,46 @@ window.SHOOTS = [
       "alt": false
      },
      {
-      "src": "img/haaland-black-shot-8-the-closer-no-face-v2-t.webp",
-      "full": "img/haaland-black-shot-8-the-closer-no-face-v2-f.webp",
+      "src": "img/haaland-black-fix-shot-8-the-closer-no-face-t.webp",
+      "full": "img/haaland-black-fix-shot-8-the-closer-no-face-f.webp",
       "slot": 8,
       "role": "The Closer",
       "job": "No face. The buyer projects himself in.",
-      "title": "The Closer (no face) V2",
+      "title": "The Closer (no face)",
       "alt": false
      }
     ]
    }
   ],
-  "tests": [],
+  "tests": [
+   {
+    "src": "img/haaland-black-shot-3-studio-story-laugh-v2-t.webp",
+    "full": "img/haaland-black-shot-3-studio-story-laugh-v2-f.webp",
+    "slot": 3,
+    "role": "Studio Story",
+    "job": "The joy. Where good days happen.",
+    "title": "Studio Story (laugh) V2",
+    "alt": true
+   },
+   {
+    "src": "img/haaland-black-shot-4-fit-clarity-v2-t.webp",
+    "full": "img/haaland-black-shot-4-fit-clarity-v2-f.webp",
+    "slot": 4,
+    "role": "Fit & Clarity",
+    "job": "The truth. How it really sits.",
+    "title": "Fit & Clarity V2",
+    "alt": true
+   },
+   {
+    "src": "img/haaland-black-shot-8-the-closer-no-face-v2-t.webp",
+    "full": "img/haaland-black-shot-8-the-closer-no-face-v2-f.webp",
+    "slot": 8,
+    "role": "The Closer",
+    "job": "No face. The buyer projects himself in.",
+    "title": "The Closer (no face) V2",
+    "alt": true
+   }
+  ],
   "refs": [
    {
     "src": "img/ref-models-norway-adult-modelfacegrid-t.webp",
@@ -431,8 +469,8 @@ window.SHOOTS = [
       "alt": false
      },
      {
-      "src": "img/messi-kit-shot-3-studio-story-laugh-t.webp",
-      "full": "img/messi-kit-shot-3-studio-story-laugh-f.webp",
+      "src": "img/messi-kit-fix-shot-3-studio-story-laugh-t.webp",
+      "full": "img/messi-kit-fix-shot-3-studio-story-laugh-f.webp",
       "slot": 3,
       "role": "Studio Story",
       "job": "The joy. Where good days happen.",
@@ -440,8 +478,8 @@ window.SHOOTS = [
       "alt": false
      },
      {
-      "src": "img/messi-kit-shot-4-fit-clarity-t.webp",
-      "full": "img/messi-kit-shot-4-fit-clarity-f.webp",
+      "src": "img/messi-kit-fix-shot-4-fit-clarity-t.webp",
+      "full": "img/messi-kit-fix-shot-4-fit-clarity-f.webp",
       "slot": 4,
       "role": "Fit & Clarity",
       "job": "The truth. How it really sits.",
@@ -449,8 +487,8 @@ window.SHOOTS = [
       "alt": false
      },
      {
-      "src": "img/messi-kit-shot-5-statement-back-t.webp",
-      "full": "img/messi-kit-shot-5-statement-back-f.webp",
+      "src": "img/messi-kit-fix-shot-5-statement-back-t.webp",
+      "full": "img/messi-kit-fix-shot-5-statement-back-f.webp",
       "slot": 5,
       "role": "Statement Back",
       "job": "The fantasy. His name on your back.",
@@ -487,7 +525,35 @@ window.SHOOTS = [
     ]
    }
   ],
-  "tests": [],
+  "tests": [
+   {
+    "src": "img/messi-kit-shot-3-studio-story-laugh-t.webp",
+    "full": "img/messi-kit-shot-3-studio-story-laugh-f.webp",
+    "slot": 3,
+    "role": "Studio Story",
+    "job": "The joy. Where good days happen.",
+    "title": "Studio Story (laugh)",
+    "alt": true
+   },
+   {
+    "src": "img/messi-kit-shot-4-fit-clarity-t.webp",
+    "full": "img/messi-kit-shot-4-fit-clarity-f.webp",
+    "slot": 4,
+    "role": "Fit & Clarity",
+    "job": "The truth. How it really sits.",
+    "title": "Fit & Clarity",
+    "alt": true
+   },
+   {
+    "src": "img/messi-kit-shot-5-statement-back-t.webp",
+    "full": "img/messi-kit-shot-5-statement-back-f.webp",
+    "slot": 5,
+    "role": "Statement Back",
+    "job": "The fantasy. His name on your back.",
+    "title": "Statement Back",
+    "alt": true
+   }
+  ],
   "refs": [
    {
     "src": "img/ref-models-argentina-kid-modelfacegrid-t.webp",
@@ -560,8 +626,8 @@ window.SHOOTS = [
       "alt": false
      },
      {
-      "src": "img/messi-second-color-shot-3-studio-story-laugh-t.webp",
-      "full": "img/messi-second-color-shot-3-studio-story-laugh-f.webp",
+      "src": "img/messi-second-color-fix-shot-3-studio-story-laugh-t.webp",
+      "full": "img/messi-second-color-fix-shot-3-studio-story-laugh-f.webp",
       "slot": 3,
       "role": "Studio Story",
       "job": "The joy. Where good days happen.",
@@ -569,8 +635,8 @@ window.SHOOTS = [
       "alt": false
      },
      {
-      "src": "img/messi-second-color-shot-4-fit-clarity-t.webp",
-      "full": "img/messi-second-color-shot-4-fit-clarity-f.webp",
+      "src": "img/messi-second-color-fix-shot-4-fit-clarity-t.webp",
+      "full": "img/messi-second-color-fix-shot-4-fit-clarity-f.webp",
       "slot": 4,
       "role": "Fit & Clarity",
       "job": "The truth. How it really sits.",
@@ -578,8 +644,8 @@ window.SHOOTS = [
       "alt": false
      },
      {
-      "src": "img/messi-second-color-shot-5-statement-back-t.webp",
-      "full": "img/messi-second-color-shot-5-statement-back-f.webp",
+      "src": "img/messi-second-color-fix-shot-5-statement-back-t.webp",
+      "full": "img/messi-second-color-fix-shot-5-statement-back-f.webp",
       "slot": 5,
       "role": "Statement Back",
       "job": "The fantasy. His name on your back.",
@@ -616,7 +682,35 @@ window.SHOOTS = [
     ]
    }
   ],
-  "tests": [],
+  "tests": [
+   {
+    "src": "img/messi-second-color-shot-3-studio-story-laugh-t.webp",
+    "full": "img/messi-second-color-shot-3-studio-story-laugh-f.webp",
+    "slot": 3,
+    "role": "Studio Story",
+    "job": "The joy. Where good days happen.",
+    "title": "Studio Story (laugh)",
+    "alt": true
+   },
+   {
+    "src": "img/messi-second-color-shot-4-fit-clarity-t.webp",
+    "full": "img/messi-second-color-shot-4-fit-clarity-f.webp",
+    "slot": 4,
+    "role": "Fit & Clarity",
+    "job": "The truth. How it really sits.",
+    "title": "Fit & Clarity",
+    "alt": true
+   },
+   {
+    "src": "img/messi-second-color-shot-5-statement-back-t.webp",
+    "full": "img/messi-second-color-shot-5-statement-back-f.webp",
+    "slot": 5,
+    "role": "Statement Back",
+    "job": "The fantasy. His name on your back.",
+    "title": "Statement Back",
+    "alt": true
+   }
+  ],
   "refs": [
    {
     "src": "img/ref-models-argentina-kid-modelfacegrid-t.webp",
@@ -734,8 +828,8 @@ window.SHOOTS = [
       "alt": false
      },
      {
-      "src": "img/ronaldo-kit-shot-8-the-closer-no-face-t.webp",
-      "full": "img/ronaldo-kit-shot-8-the-closer-no-face-f.webp",
+      "src": "img/ronaldo-kit-fix-shot-8-the-closer-no-face-t.webp",
+      "full": "img/ronaldo-kit-fix-shot-8-the-closer-no-face-f.webp",
       "slot": 8,
       "role": "The Closer",
       "job": "No face. The buyer projects himself in.",
@@ -745,7 +839,17 @@ window.SHOOTS = [
     ]
    }
   ],
-  "tests": [],
+  "tests": [
+   {
+    "src": "img/ronaldo-kit-shot-8-the-closer-no-face-t.webp",
+    "full": "img/ronaldo-kit-shot-8-the-closer-no-face-f.webp",
+    "slot": 8,
+    "role": "The Closer",
+    "job": "No face. The buyer projects himself in.",
+    "title": "The Closer (no face)",
+    "alt": true
+   }
+  ],
   "refs": [
    {
     "src": "img/ref-models-portugal-kid-modelfacegrid-t.webp",
@@ -863,8 +967,8 @@ window.SHOOTS = [
       "alt": false
      },
      {
-      "src": "img/ronaldo-kit-v2-shot-8-the-closer-no-face-t.webp",
-      "full": "img/ronaldo-kit-v2-shot-8-the-closer-no-face-f.webp",
+      "src": "img/ronaldo-kit-v2-fix-shot-8-the-closer-no-face-t.webp",
+      "full": "img/ronaldo-kit-v2-fix-shot-8-the-closer-no-face-f.webp",
       "slot": 8,
       "role": "The Closer",
       "job": "No face. The buyer projects himself in.",
@@ -874,7 +978,17 @@ window.SHOOTS = [
     ]
    }
   ],
-  "tests": [],
+  "tests": [
+   {
+    "src": "img/ronaldo-kit-v2-shot-8-the-closer-no-face-t.webp",
+    "full": "img/ronaldo-kit-v2-shot-8-the-closer-no-face-f.webp",
+    "slot": 8,
+    "role": "The Closer",
+    "job": "No face. The buyer projects himself in.",
+    "title": "The Closer (no face)",
+    "alt": true
+   }
+  ],
   "refs": [
    {
     "src": "img/ref-models-portugal-kid-modelfacegrid-t.webp",
@@ -1167,12 +1281,12 @@ window.SHOOTS = [
       "alt": false
      },
      {
-      "src": "img/neymar-adult-shot-4-fit-clarity-v2-t.webp",
-      "full": "img/neymar-adult-shot-4-fit-clarity-v2-f.webp",
+      "src": "img/neymar-adult-fix-shot-4-fit-clarity-t.webp",
+      "full": "img/neymar-adult-fix-shot-4-fit-clarity-f.webp",
       "slot": 4,
       "role": "Fit & Clarity",
       "job": "The truth. How it really sits.",
-      "title": "Fit & Clarity V2",
+      "title": "Fit & Clarity",
       "alt": false
      },
      {
@@ -1240,6 +1354,15 @@ window.SHOOTS = [
     "role": "Fit & Clarity",
     "job": "The truth. How it really sits.",
     "title": "Fit & Clarity (grey studio)",
+    "alt": true
+   },
+   {
+    "src": "img/neymar-adult-shot-4-fit-clarity-v2-t.webp",
+    "full": "img/neymar-adult-shot-4-fit-clarity-v2-f.webp",
+    "slot": 4,
+    "role": "Fit & Clarity",
+    "job": "The truth. How it really sits.",
+    "title": "Fit & Clarity V2",
     "alt": true
    },
    {
@@ -1453,8 +1576,8 @@ window.SHOOTS = [
       "alt": false
      },
      {
-      "src": "img/lamine-yamal-shot-2-identity-vibe-t.webp",
-      "full": "img/lamine-yamal-shot-2-identity-vibe-f.webp",
+      "src": "img/lamine-yamal-fix-shot-2-identity-vibe-t.webp",
+      "full": "img/lamine-yamal-fix-shot-2-identity-vibe-f.webp",
       "slot": 2,
       "role": "Identity & Vibe",
       "job": "The hook. He owns the place.",
@@ -1518,7 +1641,17 @@ window.SHOOTS = [
     ]
    }
   ],
-  "tests": [],
+  "tests": [
+   {
+    "src": "img/lamine-yamal-shot-2-identity-vibe-t.webp",
+    "full": "img/lamine-yamal-shot-2-identity-vibe-f.webp",
+    "slot": 2,
+    "role": "Identity & Vibe",
+    "job": "The hook. He owns the place.",
+    "title": "Identity & Vibe",
+    "alt": true
+   }
+  ],
   "refs": [
    {
     "src": "img/ref-models-barcelona-kid-modelfacegrid-t.webp",
