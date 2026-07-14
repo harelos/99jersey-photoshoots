@@ -7,6 +7,8 @@ window.SHOOTS = [
   "crumb": "WORLD CUP JERSEYS",
   "concept": "Nordic fjord village, golden hour",
   "casting": "Haaland Kit",
+  "family": "haaland",
+  "variant": "Home · Youth",
   "state": "complete",
   "note": "All 8 slots delivered",
   "done": [
@@ -133,6 +135,8 @@ window.SHOOTS = [
   "crumb": "WORLD CUP JERSEYS",
   "concept": "Paris cage pitch, dusk",
   "casting": "Mbappe Kit",
+  "family": "mbappe",
+  "variant": "Home · Youth",
   "state": "complete",
   "note": "All 8 slots delivered",
   "done": [
@@ -307,6 +311,8 @@ window.SHOOTS = [
   "crumb": "WORLD CUP JERSEYS",
   "concept": "Buenos Aires barrio, street ball",
   "casting": "Messi Kit",
+  "family": "messi",
+  "variant": "Home",
   "state": "complete",
   "note": "All 8 slots delivered",
   "done": [
@@ -517,6 +523,8 @@ window.SHOOTS = [
   "crumb": "JERSEYS",
   "concept": "Rio favela steps, warm haze",
   "casting": "Neymar Adult",
+  "family": "neymar",
+  "variant": "Adult",
   "state": "complete",
   "note": "All 8 slots delivered",
   "done": [
@@ -552,6 +560,15 @@ window.SHOOTS = [
       "full": "img/neymar-adult-batch-1-shot-2-identity-vibe-favela-steps-long-lens-f.webp"
      },
      {
+      "src": "img/neymar-adult-batch-1-shot-2-identity-vibe-v2-t.webp",
+      "slot": 2,
+      "role": "Identity & Vibe",
+      "job": "The hook. He owns the place.",
+      "title": "Identity & Vibe V2",
+      "alt": true,
+      "full": "img/neymar-adult-batch-1-shot-2-identity-vibe-v2-f.webp"
+     },
+     {
       "src": "img/neymar-adult-batch-1-shot-3-studio-radio-sit-laugh-t.webp",
       "slot": 3,
       "role": "Styling Context",
@@ -559,6 +576,15 @@ window.SHOOTS = [
       "title": "Studio Radio Sit (laugh)",
       "alt": false,
       "full": "img/neymar-adult-batch-1-shot-3-studio-radio-sit-laugh-f.webp"
+     },
+     {
+      "src": "img/neymar-adult-batch-1-shot-3-studio-story-laugh-v2-t.webp",
+      "slot": 3,
+      "role": "Styling Context",
+      "job": "The joy. Where good days happen.",
+      "title": "Studio Story (laugh) V2",
+      "alt": true,
+      "full": "img/neymar-adult-batch-1-shot-3-studio-story-laugh-v2-f.webp"
      },
      {
       "src": "img/neymar-adult-batch-1-shot-4-fit-clarity-grey-studio-t.webp",
@@ -570,6 +596,15 @@ window.SHOOTS = [
       "full": "img/neymar-adult-batch-1-shot-4-fit-clarity-grey-studio-f.webp"
      },
      {
+      "src": "img/neymar-adult-batch-1-shot-4-fit-clarity-v2-t.webp",
+      "slot": 4,
+      "role": "Fit & Clarity",
+      "job": "The truth. How it really fits.",
+      "title": "Fit & Clarity V2",
+      "alt": true,
+      "full": "img/neymar-adult-batch-1-shot-4-fit-clarity-v2-f.webp"
+     },
+     {
       "src": "img/neymar-adult-batch-1-shot-5-statement-back-neymar-jr-10-t.webp",
       "slot": 5,
       "role": "Statement Back",
@@ -577,6 +612,15 @@ window.SHOOTS = [
       "title": "Statement Back (NEYMAR JR 10)",
       "alt": false,
       "full": "img/neymar-adult-batch-1-shot-5-statement-back-neymar-jr-10-f.webp"
+     },
+     {
+      "src": "img/neymar-adult-batch-1-shot-5-statement-back-v2-t.webp",
+      "slot": 5,
+      "role": "Statement Back",
+      "job": "The fantasy. His name on the back.",
+      "title": "Statement Back V2",
+      "alt": true,
+      "full": "img/neymar-adult-batch-1-shot-5-statement-back-v2-f.webp"
      },
      {
       "src": "img/neymar-adult-batch-1-shot-6-macro-crest-t.webp",
@@ -604,6 +648,15 @@ window.SHOOTS = [
       "title": "The Closer (beach, no face)",
       "alt": false,
       "full": "img/neymar-adult-batch-1-shot-8-the-closer-beach-no-face-f.webp"
+     },
+     {
+      "src": "img/neymar-adult-batch-1-shot-8-the-closer-no-face-v2-t.webp",
+      "slot": 8,
+      "role": "The Closer",
+      "job": "The swag. No face, so it's yours.",
+      "title": "The Closer (no face) V2",
+      "alt": true,
+      "full": "img/neymar-adult-batch-1-shot-8-the-closer-no-face-v2-f.webp"
      }
     ]
    }
@@ -643,6 +696,8 @@ window.SHOOTS = [
   "crumb": "JERSEYS",
   "concept": "Philly rowhouse stoop",
   "casting": "Pulisic Adult",
+  "family": "pulisic",
+  "variant": "Adult",
   "state": "complete",
   "note": "All 8 slots delivered",
   "done": [
@@ -769,6 +824,8 @@ window.SHOOTS = [
   "crumb": "WORLD CUP JERSEYS",
   "concept": "American driveway, suburban dusk",
   "casting": "Pulisic Kit",
+  "family": "pulisic",
+  "variant": "Youth",
   "state": "complete",
   "note": "All 8 slots delivered",
   "done": [
@@ -895,6 +952,8 @@ window.SHOOTS = [
   "crumb": "WORLD CUP JERSEYS",
   "concept": "Portuguese old town, last light",
   "casting": "Ronaldo Kit",
+  "family": "ronaldo",
+  "variant": "Design 1",
   "state": "complete",
   "note": "All 8 slots delivered",
   "done": [
@@ -1238,6 +1297,124 @@ window.SHOOTS = [
   ]
  },
  {
+  "id": "haaland-black",
+  "dir": "Haaland Black",
+  "name": "ERLING HAALAND",
+  "sub": "#9 Norway Blackout Kit",
+  "crumb": "WORLD CUP JERSEYS",
+  "concept": "Blackout edition, hard light",
+  "casting": "Norway Adult",
+  "family": "haaland",
+  "variant": "Blackout",
+  "state": "partial",
+  "note": "7 of 8 slots delivered",
+  "done": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "batches": [
+   {
+    "name": "Batch 1",
+    "shots": [
+     {
+      "src": "img/haaland-black-batch-1-shot-1-google-shopping-flat-lay-t.webp",
+      "slot": 1,
+      "role": "Google Shopping",
+      "job": "The thumbnail. Legibility over emotion.",
+      "title": "Google Shopping Flat Lay",
+      "alt": false,
+      "full": "img/haaland-black-batch-1-shot-1-google-shopping-flat-lay-f.webp"
+     },
+     {
+      "src": "img/haaland-black-batch-1-shot-2-identity-vibe-v2-t.webp",
+      "slot": 2,
+      "role": "Identity & Vibe",
+      "job": "The hook. He owns the place.",
+      "title": "Identity & Vibe V2",
+      "alt": true,
+      "full": "img/haaland-black-batch-1-shot-2-identity-vibe-v2-f.webp"
+     },
+     {
+      "src": "img/haaland-black-batch-1-shot-3-studio-story-laugh-v2-t.webp",
+      "slot": 3,
+      "role": "Styling Context",
+      "job": "The joy. Where good days happen.",
+      "title": "Studio Story (laugh) V2",
+      "alt": true,
+      "full": "img/haaland-black-batch-1-shot-3-studio-story-laugh-v2-f.webp"
+     },
+     {
+      "src": "img/haaland-black-batch-1-shot-4-fit-clarity-v2-t.webp",
+      "slot": 4,
+      "role": "Fit & Clarity",
+      "job": "The truth. How it really fits.",
+      "title": "Fit & Clarity V2",
+      "alt": true,
+      "full": "img/haaland-black-batch-1-shot-4-fit-clarity-v2-f.webp"
+     },
+     {
+      "src": "img/haaland-black-batch-1-shot-5-statement-back-v2-t.webp",
+      "slot": 5,
+      "role": "Statement Back",
+      "job": "The fantasy. His name on the back.",
+      "title": "Statement Back V2",
+      "alt": true,
+      "full": "img/haaland-black-batch-1-shot-5-statement-back-v2-f.webp"
+     },
+     {
+      "src": "img/haaland-black-batch-1-shot-6-macro-crest-t.webp",
+      "slot": 6,
+      "role": "Anti-Scam Macro",
+      "job": "The proof. Not a knockoff.",
+      "title": "Macro Crest",
+      "alt": false,
+      "full": "img/haaland-black-batch-1-shot-6-macro-crest-f.webp"
+     },
+     {
+      "src": "img/haaland-black-batch-1-shot-7-macro-collar-cuff-t.webp",
+      "slot": 7,
+      "role": "Anti-Scam Macro",
+      "job": "The quality. Real fabric.",
+      "title": "Macro Collar & Cuff",
+      "alt": false,
+      "full": "img/haaland-black-batch-1-shot-7-macro-collar-cuff-f.webp"
+     }
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "src": "img/models-norway-adult-modelanglesgrid-t.webp",
+    "label": "Angles Grid",
+    "note": "16 camera moves. The brand's eye.",
+    "full": "img/models-norway-adult-modelanglesgrid-f.webp"
+   },
+   {
+    "src": "img/models-norway-adult-modelbodygrid-t.webp",
+    "label": "Body Grid",
+    "note": "16 stances. Locks how he stands.",
+    "full": "img/models-norway-adult-modelbodygrid-f.webp"
+   },
+   {
+    "src": "img/models-norway-adult-modelfacegrid-t.webp",
+    "label": "Face Grid",
+    "note": "16 expressions. Locks who he is.",
+    "full": "img/models-norway-adult-modelfacegrid-f.webp"
+   },
+   {
+    "src": "img/models-norway-adult-moodboard-t.webp",
+    "label": "Mood Board",
+    "note": "The world. Palette, light, props.",
+    "full": "img/models-norway-adult-moodboard-f.webp"
+   }
+  ]
+ },
+ {
   "id": "messi-second-color",
   "dir": "Messi Second Color",
   "name": "LIONEL MESSI",
@@ -1245,6 +1422,8 @@ window.SHOOTS = [
   "crumb": "WORLD CUP JERSEYS",
   "concept": "Buenos Aires barrio, street ball",
   "casting": "Argentina Kid",
+  "family": "messi",
+  "variant": "Away",
   "state": "partial",
   "note": "7 of 8 slots delivered",
   "done": [
@@ -1367,6 +1546,8 @@ window.SHOOTS = [
   "crumb": "WORLD CUP JERSEYS",
   "concept": "Portuguese old town, last light",
   "casting": "Portugal Kid",
+  "family": "ronaldo",
+  "variant": "Design 2",
   "state": "partial",
   "note": "7 of 8 slots delivered",
   "done": [
@@ -1483,6 +1664,8 @@ window.SHOOTS = [
   "crumb": "WORLD CUP JERSEYS",
   "concept": "Nordic fjord village, golden hour",
   "casting": "Norway Adult",
+  "family": "haaland",
+  "variant": "Home · Adult",
   "state": "product",
   "note": "Product shots done — model shots pending",
   "done": [
@@ -1552,82 +1735,6 @@ window.SHOOTS = [
   ]
  },
  {
-  "id": "haaland-black",
-  "dir": "Haaland Black",
-  "name": "ERLING HAALAND",
-  "sub": "#9 Norway Blackout Kit",
-  "crumb": "WORLD CUP JERSEYS",
-  "concept": "Blackout edition, hard light",
-  "casting": "Norway Adult",
-  "state": "product",
-  "note": "Product shots done — model shots pending",
-  "done": [
-   1,
-   6,
-   7
-  ],
-  "batches": [
-   {
-    "name": "Batch 1",
-    "shots": [
-     {
-      "src": "img/haaland-black-batch-1-shot-1-google-shopping-flat-lay-t.webp",
-      "slot": 1,
-      "role": "Google Shopping",
-      "job": "The thumbnail. Legibility over emotion.",
-      "title": "Google Shopping Flat Lay",
-      "alt": false,
-      "full": "img/haaland-black-batch-1-shot-1-google-shopping-flat-lay-f.webp"
-     },
-     {
-      "src": "img/haaland-black-batch-1-shot-6-macro-crest-t.webp",
-      "slot": 6,
-      "role": "Anti-Scam Macro",
-      "job": "The proof. Not a knockoff.",
-      "title": "Macro Crest",
-      "alt": false,
-      "full": "img/haaland-black-batch-1-shot-6-macro-crest-f.webp"
-     },
-     {
-      "src": "img/haaland-black-batch-1-shot-7-macro-collar-cuff-t.webp",
-      "slot": 7,
-      "role": "Anti-Scam Macro",
-      "job": "The quality. Real fabric.",
-      "title": "Macro Collar & Cuff",
-      "alt": false,
-      "full": "img/haaland-black-batch-1-shot-7-macro-collar-cuff-f.webp"
-     }
-    ]
-   }
-  ],
-  "refs": [
-   {
-    "src": "img/models-norway-adult-modelanglesgrid-t.webp",
-    "label": "Angles Grid",
-    "note": "16 camera moves. The brand's eye.",
-    "full": "img/models-norway-adult-modelanglesgrid-f.webp"
-   },
-   {
-    "src": "img/models-norway-adult-modelbodygrid-t.webp",
-    "label": "Body Grid",
-    "note": "16 stances. Locks how he stands.",
-    "full": "img/models-norway-adult-modelbodygrid-f.webp"
-   },
-   {
-    "src": "img/models-norway-adult-modelfacegrid-t.webp",
-    "label": "Face Grid",
-    "note": "16 expressions. Locks who he is.",
-    "full": "img/models-norway-adult-modelfacegrid-f.webp"
-   },
-   {
-    "src": "img/models-norway-adult-moodboard-t.webp",
-    "label": "Mood Board",
-    "note": "The world. Palette, light, props.",
-    "full": "img/models-norway-adult-moodboard-f.webp"
-   }
-  ]
- },
- {
   "id": "kane",
   "dir": "Kane",
   "name": "HARRY KANE",
@@ -1635,6 +1742,8 @@ window.SHOOTS = [
   "crumb": "WORLD CUP JERSEYS",
   "concept": "English terraced street, overcast",
   "casting": "England Adult",
+  "family": "kane",
+  "variant": "Home · Youth",
   "state": "product",
   "note": "Product shots done — model shots pending",
   "done": [
@@ -1711,6 +1820,8 @@ window.SHOOTS = [
   "crumb": "JERSEYS",
   "concept": "Barcelona backstreets, warm dusk",
   "casting": "Barcelona Kid",
+  "family": "yamal",
+  "variant": "Home · Youth",
   "state": "product",
   "note": "Product shots done — model shots pending",
   "done": [
